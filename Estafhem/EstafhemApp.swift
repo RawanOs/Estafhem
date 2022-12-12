@@ -11,7 +11,9 @@ import SwiftUI
 struct EstafhemApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            StartView()
+            ProfaileView()
+    
         }
     }
 }
