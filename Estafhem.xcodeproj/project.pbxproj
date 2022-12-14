@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		26F8AEAC2949C9CB004B7BD6 /* SignInWithApple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F8AEAB2949C9CB004B7BD6 /* SignInWithApple.swift */; };
+		26F8AEAE2949CA61004B7BD6 /* InterFace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F8AEAD2949CA61004B7BD6 /* InterFace.swift */; };
+		26F8AEB02949CB73004B7BD6 /* ChangePassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F8AEAF2949CB73004B7BD6 /* ChangePassword.swift */; };
+		26F8AEB22949CBA6004B7BD6 /* resendPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F8AEB12949CBA6004B7BD6 /* resendPassword.swift */; };
 		9916EF802941BD0A00D159FA /* EstafhemApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9916EF7F2941BD0A00D159FA /* EstafhemApp.swift */; };
 		9916EF822941BD0A00D159FA /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9916EF812941BD0A00D159FA /* StartView.swift */; };
 		9916EF842941BD0B00D159FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9916EF832941BD0B00D159FA /* Assets.xcassets */; };
@@ -38,6 +42,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		26F8AEAB2949C9CB004B7BD6 /* SignInWithApple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInWithApple.swift; sourceTree = "<group>"; };
+		26F8AEAD2949CA61004B7BD6 /* InterFace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterFace.swift; sourceTree = "<group>"; };
+		26F8AEAF2949CB73004B7BD6 /* ChangePassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePassword.swift; sourceTree = "<group>"; };
+		26F8AEB12949CBA6004B7BD6 /* resendPassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resendPassword.swift; sourceTree = "<group>"; };
 		9916EF7C2941BD0A00D159FA /* Estafhem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Estafhem.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9916EF7F2941BD0A00D159FA /* EstafhemApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EstafhemApp.swift; sourceTree = "<group>"; };
 		9916EF812941BD0A00D159FA /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
@@ -83,6 +91,7 @@
 		9916EF732941BD0A00D159FA = {
 			isa = PBXGroup;
 			children = (
+				99EF03A92941C29B0032FB5F /* Start page.swift */,
 				9916EF7E2941BD0A00D159FA /* Estafhem */,
 				9916EF7D2941BD0A00D159FA /* Products */,
 			);
@@ -99,10 +108,13 @@
 		9916EF7E2941BD0A00D159FA /* Estafhem */ = {
 			isa = PBXGroup;
 			children = (
-				99EF03A92941C29B0032FB5F /* Start page.swift */,
+				26F8AEAD2949CA61004B7BD6 /* InterFace.swift */,
 				99EF03A72941C2790032FB5F /* Login .swift */,
-				99EF03AD2941C3130032FB5F /* Sign up .swift */,
 				99EF03AB2941C2E20032FB5F /* Forget password.swift */,
+				26F8AEAB2949C9CB004B7BD6 /* SignInWithApple.swift */,
+				26F8AEB12949CBA6004B7BD6 /* resendPassword.swift */,
+				26F8AEAF2949CB73004B7BD6 /* ChangePassword.swift */,
+				99EF03AD2941C3130032FB5F /* Sign up .swift */,
 				99EF03AF2941C3890032FB5F /* main page.swift */,
 				99EF03A32941BDB10032FB5F /* Profaile.swift */,
 				99EF03C92941C6440032FB5F /* insturct profile .swift */,
@@ -221,13 +233,17 @@
 				99EF03CC2941C6D20032FB5F /* confirmation.swift in Sources */,
 				99A732F3294857FB00095932 /* CheckBoxView.swift in Sources */,
 				99EF03A82941C2790032FB5F /* Login .swift in Sources */,
+				26F8AEAC2949C9CB004B7BD6 /* SignInWithApple.swift in Sources */,
 				99EF03A42941BDB10032FB5F /* Profaile.swift in Sources */,
 				99EF03B62941C4110032FB5F /* Appointment Details .swift in Sources */,
 				99EF03BE2941C56E0032FB5F /* reviwe instructur .swift in Sources */,
+				26F8AEB22949CBA6004B7BD6 /* resendPassword.swift in Sources */,
+				26F8AEAE2949CA61004B7BD6 /* InterFace.swift in Sources */,
 				9976D6DE2945B35100BE57D3 /* MessageBot.swift in Sources */,
 				9916EF822941BD0A00D159FA /* StartView.swift in Sources */,
 				99EF03C62941C60E0032FB5F /* support.swift in Sources */,
 				99EF03C22941C5A70032FB5F /* manage card page.swift in Sources */,
+				26F8AEB02949CB73004B7BD6 /* ChangePassword.swift in Sources */,
 				99EF03CA2941C6440032FB5F /* insturct profile .swift in Sources */,
 				99EF03C82941C6290032FB5F /* user profile.swift in Sources */,
 				998AB8802943373100179B71 /* consularList.swift in Sources */,
