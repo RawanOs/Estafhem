@@ -59,7 +59,6 @@ struct ContentOfAllReminders : View{
     }
 }
 
-
 //a struct for the design of each reminder
 struct ReminderView : View{
     
