@@ -198,16 +198,22 @@ struct TermsView: View {
                                             
                                         }
                     
-                    Button(action: { }) {
-                        Text("Agree").padding()
-                        .foregroundColor(.white) }
+                    Button{
+                    }label: {
+                    NavigationLink(destination: sessions()
+                    //LoginPage()
+                    , label:{
+                    Text("Agree")
+                    .frame(width:307 , height:44 )
+                    .foregroundColor(.white)
+                    .background(Color("Maroon"))
+                    .cornerRadius(8)
+                   
+
+                    }).foregroundColor(Color("Maroon"))
+                                }
                     
-                    .background(RoundedRectangle(cornerRadius: 8)
-                        .fill(Color("Maroon"))
-                        .frame(width: 307, height: 44)
-                    )
-                    
-                    
+            
             
                 }
             }
