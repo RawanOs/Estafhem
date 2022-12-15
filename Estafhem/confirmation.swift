@@ -2,7 +2,31 @@
 //  confirmation.swift
 //  Estafhem
 //
-//  Created by Rawan on 14/05/1444 AH.
+//  Created by Rawan on 20/05/1444 AH.
 //
 
-import Foundation
+import SwiftUI
+
+struct confirmation: View {
+    var body: some View {
+        VStack(alignment:.center) {
+            Image("check")
+                .resizable()
+                .scaledToFill()
+                .frame(width: 170, height: 170)
+                .imageScale(.large)
+                .foregroundColor(.accentColor)
+            
+            Text("Your appointment has been register")
+                .font(.largeTitle)
+                .padding(.horizontal,4)
+            
+        }
+    }
+    
+    struct confirmation_Previews: PreviewProvider {
+        static var previews: some View {
+            confirmation()
+        }
+    }
+}

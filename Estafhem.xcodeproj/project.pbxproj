@@ -22,6 +22,8 @@
 		998AB8802943373100179B71 /* consularList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998AB87F2943373100179B71 /* consularList.swift */; };
 		99A732F3294857FB00095932 /* CheckBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A732F2294857FB00095932 /* CheckBoxView.swift */; };
 		99A732F52949BD6E00095932 /* TermsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A732F42949BD6E00095932 /* TermsView.swift */; };
+		99A732F8294A13F000095932 /* confirmation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A732F7294A13F000095932 /* confirmation.swift */; };
+		99E0675D294A1AD2009BD4E4 /* sessions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E0675C294A1AD2009BD4E4 /* sessions.swift */; };
 		99EF03A42941BDB10032FB5F /* Profaile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EF03A32941BDB10032FB5F /* Profaile.swift */; };
 		99EF03A82941C2790032FB5F /* Login .swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EF03A72941C2790032FB5F /* Login .swift */; };
 		99EF03AA2941C29B0032FB5F /* Start page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EF03A92941C29B0032FB5F /* Start page.swift */; };
@@ -29,7 +31,6 @@
 		99EF03AE2941C3130032FB5F /* Sign up .swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EF03AD2941C3130032FB5F /* Sign up .swift */; };
 		99EF03B02941C3890032FB5F /* main page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EF03AF2941C3890032FB5F /* main page.swift */; };
 		99EF03B62941C4110032FB5F /* Appointment Details .swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EF03B52941C4110032FB5F /* Appointment Details .swift */; };
-		99EF03B82941C4770032FB5F /* Session Details.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EF03B72941C4770032FB5F /* Session Details.swift */; };
 		99EF03BC2941C5410032FB5F /* reviwe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EF03BB2941C5410032FB5F /* reviwe.swift */; };
 		99EF03BE2941C56E0032FB5F /* reviwe instructur .swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EF03BD2941C56E0032FB5F /* reviwe instructur .swift */; };
 		99EF03C02941C58D0032FB5F /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EF03BF2941C58D0032FB5F /* Settings.swift */; };
@@ -38,7 +39,6 @@
 		99EF03C62941C60E0032FB5F /* support.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EF03C52941C60E0032FB5F /* support.swift */; };
 		99EF03C82941C6290032FB5F /* user profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EF03C72941C6290032FB5F /* user profile.swift */; };
 		99EF03CA2941C6440032FB5F /* insturct profile .swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EF03C92941C6440032FB5F /* insturct profile .swift */; };
-		99EF03CC2941C6D20032FB5F /* confirmation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EF03CB2941C6D20032FB5F /* confirmation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +58,9 @@
 		998AB87F2943373100179B71 /* consularList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = consularList.swift; sourceTree = "<group>"; };
 		99A732F2294857FB00095932 /* CheckBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBoxView.swift; sourceTree = "<group>"; };
 		99A732F42949BD6E00095932 /* TermsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsView.swift; sourceTree = "<group>"; };
+		99A732F62949D95500095932 /* Estafhem.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Estafhem.entitlements; sourceTree = "<group>"; };
+		99A732F7294A13F000095932 /* confirmation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = confirmation.swift; sourceTree = "<group>"; };
+		99E0675C294A1AD2009BD4E4 /* sessions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sessions.swift; sourceTree = "<group>"; };
 		99EF03A32941BDB10032FB5F /* Profaile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profaile.swift; sourceTree = "<group>"; };
 		99EF03A72941C2790032FB5F /* Login .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Login .swift"; sourceTree = "<group>"; };
 		99EF03A92941C29B0032FB5F /* Start page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Start page.swift"; sourceTree = "<group>"; };
@@ -65,7 +68,6 @@
 		99EF03AD2941C3130032FB5F /* Sign up .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sign up .swift"; sourceTree = "<group>"; };
 		99EF03AF2941C3890032FB5F /* main page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "main page.swift"; sourceTree = "<group>"; };
 		99EF03B52941C4110032FB5F /* Appointment Details .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Appointment Details .swift"; sourceTree = "<group>"; };
-		99EF03B72941C4770032FB5F /* Session Details.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Session Details.swift"; sourceTree = "<group>"; };
 		99EF03BB2941C5410032FB5F /* reviwe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reviwe.swift; sourceTree = "<group>"; };
 		99EF03BD2941C56E0032FB5F /* reviwe instructur .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "reviwe instructur .swift"; sourceTree = "<group>"; };
 		99EF03BF2941C58D0032FB5F /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
@@ -74,7 +76,6 @@
 		99EF03C52941C60E0032FB5F /* support.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = support.swift; sourceTree = "<group>"; };
 		99EF03C72941C6290032FB5F /* user profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "user profile.swift"; sourceTree = "<group>"; };
 		99EF03C92941C6440032FB5F /* insturct profile .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "insturct profile .swift"; sourceTree = "<group>"; };
-		99EF03CB2941C6D20032FB5F /* confirmation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = confirmation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +109,8 @@
 		9916EF7E2941BD0A00D159FA /* Estafhem */ = {
 			isa = PBXGroup;
 			children = (
+				99A732F62949D95500095932 /* Estafhem.entitlements */,
+				99EF03A92941C29B0032FB5F /* Start page.swift */,
 				26F8AEAD2949CA61004B7BD6 /* InterFace.swift */,
 				99EF03A72941C2790032FB5F /* Login .swift */,
 				99EF03AB2941C2E20032FB5F /* Forget password.swift */,
@@ -118,14 +121,14 @@
 				99EF03AF2941C3890032FB5F /* main page.swift */,
 				99EF03A32941BDB10032FB5F /* Profaile.swift */,
 				99EF03C92941C6440032FB5F /* insturct profile .swift */,
+				99A732F7294A13F000095932 /* confirmation.swift */,
 				99A732F42949BD6E00095932 /* TermsView.swift */,
 				99EF03B52941C4110032FB5F /* Appointment Details .swift */,
 				99A732F2294857FB00095932 /* CheckBoxView.swift */,
 				99EF03C32941C5D00032FB5F /* Add card.swift */,
-				99EF03CB2941C6D20032FB5F /* confirmation.swift */,
 				9976D6DB2944B1B300BE57D3 /* Date.swift */,
+				99E0675C294A1AD2009BD4E4 /* sessions.swift */,
 				9976D6DD2945B35100BE57D3 /* MessageBot.swift */,
-				99EF03B72941C4770032FB5F /* Session Details.swift */,
 				998AB87D2943371A00179B71 /* consular.swift */,
 				998AB87F2943373100179B71 /* consularList.swift */,
 				99EF03BB2941C5410032FB5F /* reviwe.swift */,
@@ -229,12 +232,13 @@
 				99EF03C02941C58D0032FB5F /* Settings.swift in Sources */,
 				99EF03AA2941C29B0032FB5F /* Start page.swift in Sources */,
 				9976D6DC2944B1B300BE57D3 /* Date.swift in Sources */,
+				99E0675D294A1AD2009BD4E4 /* sessions.swift in Sources */,
 				99EF03B02941C3890032FB5F /* main page.swift in Sources */,
-				99EF03CC2941C6D20032FB5F /* confirmation.swift in Sources */,
 				99A732F3294857FB00095932 /* CheckBoxView.swift in Sources */,
 				99EF03A82941C2790032FB5F /* Login .swift in Sources */,
 				26F8AEAC2949C9CB004B7BD6 /* SignInWithApple.swift in Sources */,
 				99EF03A42941BDB10032FB5F /* Profaile.swift in Sources */,
+				99A732F8294A13F000095932 /* confirmation.swift in Sources */,
 				99EF03B62941C4110032FB5F /* Appointment Details .swift in Sources */,
 				99EF03BE2941C56E0032FB5F /* reviwe instructur .swift in Sources */,
 				26F8AEB22949CBA6004B7BD6 /* resendPassword.swift in Sources */,
@@ -250,7 +254,6 @@
 				9916EF802941BD0A00D159FA /* EstafhemApp.swift in Sources */,
 				99EF03AE2941C3130032FB5F /* Sign up .swift in Sources */,
 				99EF03C42941C5D00032FB5F /* Add card.swift in Sources */,
-				99EF03B82941C4770032FB5F /* Session Details.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,9 +379,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Estafhem/Estafhem.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Estafhem/Preview Content\"";
+				DEVELOPMENT_TEAM = 56P48H3M35;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -391,8 +397,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = example.Estafhem;
+				PRODUCT_BUNDLE_IDENTIFIER = icloud.trialcontainer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -404,9 +411,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Estafhem/Estafhem.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Estafhem/Preview Content\"";
+				DEVELOPMENT_TEAM = 56P48H3M35;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -419,8 +429,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = example.Estafhem;
+				PRODUCT_BUNDLE_IDENTIFIER = icloud.trialcontainer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

@@ -14,7 +14,7 @@ struct Datee: View {
     @State var selected2 = 0    // 2
     let layout = [
         GridItem(.adaptive(minimum: 125, maximum: 140))]
-
+    
     let boxes:[Box] = [
         Box(id: 0, title: "30 min"),
         Box(id: 1, title: "45 min"),
@@ -29,7 +29,7 @@ struct Datee: View {
         Box(id: 3, title: "1 pm"),
         Box(id: 4, title: " 2 pm "),
         Box(id: 5, title: "5 pm")
-      
+        
     ]
     
     var body: some View {
@@ -44,7 +44,7 @@ struct Datee: View {
                 
                 
                 
-                .datePickerStyle(.graphical)
+                    .datePickerStyle(.graphical)
                 Text("Duration")
                     .font(.custom("Helvetica", fixedSize: 24 ))
                     .frame(maxWidth: .infinity, alignment: .leading)
@@ -81,33 +81,33 @@ struct Datee: View {
                                         BoxView(box: box, selectedBtn: self.$selected2) // 2
                                         
                                     }}
-                             
+                                
                                 
                             }}
                     }
-                   
-                
+                    
+                    
                     Text("60min/100SR")
                         .foregroundColor(Color("Orange2"))
                         .padding()
                     
                     
-
+                    
                     Button{
                     }label: {
-                    NavigationLink(destination: TermsView()
-                    //LoginPage()
-                    , label:{
-                    Text("Next")
-                    .frame(width:307 , height:44 )
-                    .foregroundColor(.white)
-                    .background(Color("Maroon"))
-                    .cornerRadius(8)
-                   
-
-                    }).foregroundColor(Color("Maroon"))
-                                }
-
+                        NavigationLink(destination: TermsView()
+                                       //LoginPage()
+                                       , label:{
+                            Text("Next")
+                                .frame(width:307 , height:44 )
+                                .foregroundColor(.white)
+                                .background(Color("Maroon"))
+                                .cornerRadius(8)
+                            
+                            
+                        }).foregroundColor(Color("Maroon"))
+                    }
+                    
                     
                 }
                 
@@ -118,14 +118,14 @@ struct Datee: View {
         }
         
         
-     
+        
         
         
         
         
     }
     
-  
+    
 }
 
 struct Datee_Previews: PreviewProvider {
