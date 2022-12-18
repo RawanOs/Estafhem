@@ -22,7 +22,6 @@ struct Login: View {
         NavigationView {
             VStack{
                 
-                
                 Image("logo")
                     .imageScale(.large)
                 // .foregroundColor(.accentColor)

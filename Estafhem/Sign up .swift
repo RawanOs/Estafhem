@@ -9,7 +9,6 @@ import Foundation
 import SwiftUI
 import AuthenticationServices
 
-
 struct SignUP: View {
     
     @State var picker = ""
