@@ -16,7 +16,7 @@ struct MainPage: View {
             ZStack{
                 
                 VStack {
-
+                    
                     ScrollView{
                         
                         
@@ -42,23 +42,23 @@ struct MainPage: View {
                         
                     }
                 }
-                    
-                    .navigationTitle("Explore")
-                    .navigationBarTitleDisplayMode(.automatic)
-                    .foregroundColor(.gray)
-//                    
-                   
-                    
-                }
+                
                 .navigationTitle("Explore")
                 .navigationBarTitleDisplayMode(.automatic)
+                .foregroundColor(.gray)
+                //                    
                 
-
-            
                 
             }
+            .navigationTitle("Explore")
+            .navigationBarTitleDisplayMode(.automatic)
+            
+            
+            
+            
         }
     }
+}
 
  
 struct MainPage_Previews: PreviewProvider {
