@@ -66,6 +66,8 @@ struct ProfaileView: View {
                     
                 }
                 
+                
+//                Spacer()
                 Button{
                 }label: {
                     NavigationLink(destination: Datee()
@@ -80,11 +82,13 @@ struct ProfaileView: View {
                         
                     }).foregroundColor(Color("Maroon"))
                 }
-                
+               
             }
             
             Spacer()
                 .navigationTitle("Profaile")
+                .navigationBarTitleDisplayMode(.inline)
+                
         }}
         
 }

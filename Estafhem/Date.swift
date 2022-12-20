@@ -49,7 +49,7 @@ struct Datee: View {
                     .font(.custom("Helvetica", fixedSize: 24 ))
                     .frame(maxWidth: .infinity, alignment: .leading)
                     .padding(.leading)
-                    .foregroundColor(Color("Orange2"))
+                    .foregroundColor(Color("Maroon"))
                     .padding()
                 
                 
@@ -68,7 +68,7 @@ struct Datee: View {
                         .font(.custom("Helvetica", fixedSize: 24 ))
                         .frame(maxWidth: .infinity, alignment: .leading)
                         .padding(.leading)
-                        .foregroundColor(Color("Orange2"))
+                        .foregroundColor(Color("Maroon"))
                         .padding()
                     
                     
@@ -91,8 +91,6 @@ struct Datee: View {
                         .foregroundColor(Color("Orange2"))
                         .padding()
                     
-                    
-                    
                     Button{
                     }label: {
                         NavigationLink(destination: TermsView()
@@ -112,9 +110,9 @@ struct Datee: View {
                 }
                 
                 
-                
             }
             .navigationTitle("Select Date")
+            .navigationBarTitleDisplayMode(.inline)
         }
         
         

@@ -55,7 +55,7 @@ struct ChangePassword: View {
                 
                 .background(RoundedRectangle(cornerRadius: 8)
                     .fill(Color("Maroon"))
-                    .frame(width: 307, height: 60)
+                    .frame(width: 307, height: 44)
                             
                 )
             }

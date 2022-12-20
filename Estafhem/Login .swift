@@ -49,8 +49,32 @@ struct Login: View {
                     .overlay(
                         RoundedRectangle(cornerRadius: 12)
                             .stroke(Color("Bluee"), lineWidth: 2)
+//                            .frame(width: 307, height: 66)
                     )
                     .padding()
+                
+                
+                
+                Button{
+                }label: {
+                    NavigationLink(destination: MainPage()
+                                   //LoginPage()
+                                   , label:{
+                        Text("log in ")
+                            .frame(width:320 , height:50 )
+                            .foregroundColor(.white)
+                            .background(Color("Maroon"))
+                            .cornerRadius(8)
+                        
+                        
+                    }).foregroundColor(Color("Maroon"))
+                }
+                .padding(.top)
+
+                
+                
+                
+                
                 
                 Button(action: {}) {
                     
@@ -60,7 +84,7 @@ struct Login: View {
                             Text("Forget Password ? ")
                                 .foregroundColor(Color("Maroon"))
                             
-                                .padding()
+                                .padding(.leading)
                             
                                 .padding()
                             
@@ -88,14 +112,20 @@ struct Login: View {
                 
                 
                 Spacer()
-                Button(action: { }) {
-                    Text("Log In").padding()
-                    .foregroundColor(.white)            }
-                
-                .background(RoundedRectangle(cornerRadius: 8)
-                    .fill(Color("Maroon"))
-                    .frame(width: 320, height: 60)
-                )
+//                Button{
+//                }label: {
+//                    NavigationLink(destination: MainPage()
+//                                   //LoginPage()
+//                                   , label:{
+//                        Text("log in ")
+//                            .frame(width:307 , height:44 )
+//                            .foregroundColor(.white)
+//                            .background(Color("Maroon"))
+//                            .cornerRadius(8)
+//
+//
+//                    }).foregroundColor(Color("Maroon"))
+//                }
                 
                 
             }

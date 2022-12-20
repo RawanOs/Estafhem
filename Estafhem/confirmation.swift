@@ -17,10 +17,13 @@ struct confirmation: View {
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
             
-            Text("Your appointment has been register")
+            Text("Your appointment has")
                 .font(.largeTitle)
-                .padding(.horizontal,4)
-            
+
+            Text("been register")
+                .font(.largeTitle)
+                .padding([.leading, .bottom],4)
+               
         }
     }
     

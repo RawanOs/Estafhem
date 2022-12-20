@@ -19,25 +19,25 @@ struct sessions: View {
     var body: some View {
         NavigationStack{
             ZStack{
-                VStack{
-                    HStack{
-                        Button {
-                        } label: {
-                            Image (systemName: "chevron.backward")
-                            .font(.title2)}
-                        Spacer()
-                    }
-                    .padding(.horizontal)
-                    .overlay(content:{
-                        Text("Sessions Details ")
-                            .fontWeight(.semibold)
-                            .font(.system(size: 21))
-                        
-                    })
-                    .foregroundColor(Color("Maroon"))
-                    Spacer()
-                    
-                }
+//                VStack{
+//                    HStack{
+//                        Button {
+//                        } label: {
+//                            Image (systemName: "chevron.backward")
+//                            .font(.title2)}
+//                        Spacer()
+//                    }
+//                    .padding(.horizontal)
+//                    .overlay(content:{
+//                        Text("Sessions Details ")
+//                            .fontWeight(.semibold)
+//                            .font(.system(size: 21))
+//
+//                    })
+//                    .foregroundColor(Color("Maroon"))
+//                    Spacer()
+//
+//                }
                 HStack{
                     VStack{
                         
@@ -75,21 +75,22 @@ struct sessions: View {
                             .overlay(
                                 Text("38 min")
                             )
-                            .padding(6)
+                            .padding([.top, .bottom, .trailing], 6)
                         RoundedRectangle(cornerRadius: 10)
-                            .stroke(.black, lineWidth: 1)
+                            .stroke(Color("Maroon"), lineWidth: 1)
                             .frame(width: 122,height: 41)
                             .overlay(
                                 Text("26 /05/2022")
-                                    .foregroundColor(Color("Maroon")))
-                            .padding(6)
+                                    )
+                            .padding([.top, .bottom, .trailing], 6)
                         RoundedRectangle(cornerRadius: 10)
                             .stroke(Color("Maroon"), lineWidth: 1)
                             .frame(width: 122,height: 41)
                             .overlay(
                                 Text("1:30 PM")
-                                    .foregroundColor(Color("Maroon")))
-                            .padding(6)
+                                    .padding()
+                                    )
+                            .padding([.top, .bottom, .trailing], 6)
                         Spacer()
                             .frame(width: 45 ,height: 300)
                     }
@@ -194,7 +195,7 @@ struct sessions: View {
                     
                     Button{
                     }label: {
-                        NavigationLink(destination: TermsView()
+                        NavigationLink(destination: AppCardPage()
                                        //LoginPage()
                                        , label:{
                             Text("Pay with Cridt Card")
@@ -209,10 +210,13 @@ struct sessions: View {
                     
                     
                     
-                }
+                    
+                }  .navigationTitle("")
+                    .navigationBarTitleDisplayMode(.inline)
                 
             }
         }
+      
         
     }
 }

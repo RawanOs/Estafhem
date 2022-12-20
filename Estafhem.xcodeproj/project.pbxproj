@@ -20,6 +20,14 @@
 		9976D6DE2945B35100BE57D3 /* MessageBot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9976D6DD2945B35100BE57D3 /* MessageBot.swift */; };
 		998AB87E2943371A00179B71 /* consular.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998AB87D2943371A00179B71 /* consular.swift */; };
 		998AB8802943373100179B71 /* consularList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998AB87F2943373100179B71 /* consularList.swift */; };
+		99A241FA29504B6200999CB1 /* jjj.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A241F929504B6200999CB1 /* jjj.swift */; };
+		99A241FC29504BBE00999CB1 /* TopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A241FB29504BBE00999CB1 /* TopView.swift */; };
+		99A241FE29504BF500999CB1 /* MainPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A241FD29504BF500999CB1 /* MainPage.swift */; };
+		99A2420029504C2600999CB1 /* middelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A241FF29504C2600999CB1 /* middelView.swift */; };
+		99A242022950CCD000999CB1 /* UserP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A242012950CCD000999CB1 /* UserP.swift */; };
+		99A242042950CD2D00999CB1 /* UserP2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A242032950CD2D00999CB1 /* UserP2.swift */; };
+		99A242062950CD8100999CB1 /* AppCardPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A242052950CD8100999CB1 /* AppCardPage.swift */; };
+		99A2420A29519C9B00999CB1 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A2420929519C9B00999CB1 /* Card.swift */; };
 		99A732F3294857FB00095932 /* CheckBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A732F2294857FB00095932 /* CheckBoxView.swift */; };
 		99A732F52949BD6E00095932 /* TermsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A732F42949BD6E00095932 /* TermsView.swift */; };
 		99A732F8294A13F000095932 /* confirmation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A732F7294A13F000095932 /* confirmation.swift */; };
@@ -35,9 +43,7 @@
 		99EF03BE2941C56E0032FB5F /* reviwe instructur .swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EF03BD2941C56E0032FB5F /* reviwe instructur .swift */; };
 		99EF03C02941C58D0032FB5F /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EF03BF2941C58D0032FB5F /* Settings.swift */; };
 		99EF03C22941C5A70032FB5F /* manage card page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EF03C12941C5A70032FB5F /* manage card page.swift */; };
-		99EF03C42941C5D00032FB5F /* Add card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EF03C32941C5D00032FB5F /* Add card.swift */; };
 		99EF03C62941C60E0032FB5F /* support.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EF03C52941C60E0032FB5F /* support.swift */; };
-		99EF03C82941C6290032FB5F /* user profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EF03C72941C6290032FB5F /* user profile.swift */; };
 		99EF03CA2941C6440032FB5F /* insturct profile .swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EF03C92941C6440032FB5F /* insturct profile .swift */; };
 /* End PBXBuildFile section */
 
@@ -56,6 +62,14 @@
 		9976D6DD2945B35100BE57D3 /* MessageBot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageBot.swift; sourceTree = "<group>"; };
 		998AB87D2943371A00179B71 /* consular.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = consular.swift; sourceTree = "<group>"; };
 		998AB87F2943373100179B71 /* consularList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = consularList.swift; sourceTree = "<group>"; };
+		99A241F929504B6200999CB1 /* jjj.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jjj.swift; sourceTree = "<group>"; };
+		99A241FB29504BBE00999CB1 /* TopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopView.swift; sourceTree = "<group>"; };
+		99A241FD29504BF500999CB1 /* MainPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPage.swift; sourceTree = "<group>"; };
+		99A241FF29504C2600999CB1 /* middelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = middelView.swift; sourceTree = "<group>"; };
+		99A242012950CCD000999CB1 /* UserP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserP.swift; sourceTree = "<group>"; };
+		99A242032950CD2D00999CB1 /* UserP2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserP2.swift; sourceTree = "<group>"; };
+		99A242052950CD8100999CB1 /* AppCardPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCardPage.swift; sourceTree = "<group>"; };
+		99A2420929519C9B00999CB1 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		99A732F2294857FB00095932 /* CheckBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBoxView.swift; sourceTree = "<group>"; };
 		99A732F42949BD6E00095932 /* TermsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsView.swift; sourceTree = "<group>"; };
 		99A732F62949D95500095932 /* Estafhem.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Estafhem.entitlements; sourceTree = "<group>"; };
@@ -72,9 +86,7 @@
 		99EF03BD2941C56E0032FB5F /* reviwe instructur .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "reviwe instructur .swift"; sourceTree = "<group>"; };
 		99EF03BF2941C58D0032FB5F /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 		99EF03C12941C5A70032FB5F /* manage card page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "manage card page.swift"; sourceTree = "<group>"; };
-		99EF03C32941C5D00032FB5F /* Add card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Add card.swift"; sourceTree = "<group>"; };
 		99EF03C52941C60E0032FB5F /* support.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = support.swift; sourceTree = "<group>"; };
-		99EF03C72941C6290032FB5F /* user profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "user profile.swift"; sourceTree = "<group>"; };
 		99EF03C92941C6440032FB5F /* insturct profile .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "insturct profile .swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -110,11 +122,18 @@
 			isa = PBXGroup;
 			children = (
 				99A732F62949D95500095932 /* Estafhem.entitlements */,
-				99EF03A92941C29B0032FB5F /* Start page.swift */,
 				26F8AEAD2949CA61004B7BD6 /* InterFace.swift */,
 				99EF03A72941C2790032FB5F /* Login .swift */,
 				99EF03AB2941C2E20032FB5F /* Forget password.swift */,
 				26F8AEAB2949C9CB004B7BD6 /* SignInWithApple.swift */,
+				99A242012950CCD000999CB1 /* UserP.swift */,
+				99A242032950CD2D00999CB1 /* UserP2.swift */,
+				99A242052950CD8100999CB1 /* AppCardPage.swift */,
+				99A2420929519C9B00999CB1 /* Card.swift */,
+				99A241F929504B6200999CB1 /* jjj.swift */,
+				99A241FB29504BBE00999CB1 /* TopView.swift */,
+				99A241FD29504BF500999CB1 /* MainPage.swift */,
+				99A241FF29504C2600999CB1 /* middelView.swift */,
 				26F8AEB12949CBA6004B7BD6 /* resendPassword.swift */,
 				26F8AEAF2949CB73004B7BD6 /* ChangePassword.swift */,
 				99EF03AD2941C3130032FB5F /* Sign up .swift */,
@@ -125,7 +144,6 @@
 				99A732F42949BD6E00095932 /* TermsView.swift */,
 				99EF03B52941C4110032FB5F /* Appointment Details .swift */,
 				99A732F2294857FB00095932 /* CheckBoxView.swift */,
-				99EF03C32941C5D00032FB5F /* Add card.swift */,
 				9976D6DB2944B1B300BE57D3 /* Date.swift */,
 				99E0675C294A1AD2009BD4E4 /* sessions.swift */,
 				9976D6DD2945B35100BE57D3 /* MessageBot.swift */,
@@ -133,7 +151,6 @@
 				998AB87F2943373100179B71 /* consularList.swift */,
 				99EF03BB2941C5410032FB5F /* reviwe.swift */,
 				99EF03BF2941C58D0032FB5F /* Settings.swift */,
-				99EF03C72941C6290032FB5F /* user profile.swift */,
 				99EF03C52941C60E0032FB5F /* support.swift */,
 				9916EF812941BD0A00D159FA /* StartView.swift */,
 				99EF03BD2941C56E0032FB5F /* reviwe instructur .swift */,
@@ -228,16 +245,23 @@
 				99A732F52949BD6E00095932 /* TermsView.swift in Sources */,
 				99EF03BC2941C5410032FB5F /* reviwe.swift in Sources */,
 				992B74572941D60D00A29479 /* SwiftUIView.swift in Sources */,
+				99A2420A29519C9B00999CB1 /* Card.swift in Sources */,
+				99A241FA29504B6200999CB1 /* jjj.swift in Sources */,
 				99EF03AC2941C2E20032FB5F /* Forget password.swift in Sources */,
 				99EF03C02941C58D0032FB5F /* Settings.swift in Sources */,
 				99EF03AA2941C29B0032FB5F /* Start page.swift in Sources */,
+				99A242022950CCD000999CB1 /* UserP.swift in Sources */,
 				9976D6DC2944B1B300BE57D3 /* Date.swift in Sources */,
 				99E0675D294A1AD2009BD4E4 /* sessions.swift in Sources */,
 				99EF03B02941C3890032FB5F /* main page.swift in Sources */,
+				99A242042950CD2D00999CB1 /* UserP2.swift in Sources */,
+				99A2420029504C2600999CB1 /* middelView.swift in Sources */,
 				99A732F3294857FB00095932 /* CheckBoxView.swift in Sources */,
 				99EF03A82941C2790032FB5F /* Login .swift in Sources */,
 				26F8AEAC2949C9CB004B7BD6 /* SignInWithApple.swift in Sources */,
+				99A241FE29504BF500999CB1 /* MainPage.swift in Sources */,
 				99EF03A42941BDB10032FB5F /* Profaile.swift in Sources */,
+				99A242062950CD8100999CB1 /* AppCardPage.swift in Sources */,
 				99A732F8294A13F000095932 /* confirmation.swift in Sources */,
 				99EF03B62941C4110032FB5F /* Appointment Details .swift in Sources */,
 				99EF03BE2941C56E0032FB5F /* reviwe instructur .swift in Sources */,
@@ -245,15 +269,14 @@
 				26F8AEAE2949CA61004B7BD6 /* InterFace.swift in Sources */,
 				9976D6DE2945B35100BE57D3 /* MessageBot.swift in Sources */,
 				9916EF822941BD0A00D159FA /* StartView.swift in Sources */,
+				99A241FC29504BBE00999CB1 /* TopView.swift in Sources */,
 				99EF03C62941C60E0032FB5F /* support.swift in Sources */,
 				99EF03C22941C5A70032FB5F /* manage card page.swift in Sources */,
 				26F8AEB02949CB73004B7BD6 /* ChangePassword.swift in Sources */,
 				99EF03CA2941C6440032FB5F /* insturct profile .swift in Sources */,
-				99EF03C82941C6290032FB5F /* user profile.swift in Sources */,
 				998AB8802943373100179B71 /* consularList.swift in Sources */,
 				9916EF802941BD0A00D159FA /* EstafhemApp.swift in Sources */,
 				99EF03AE2941C3130032FB5F /* Sign up .swift in Sources */,
-				99EF03C42941C5D00032FB5F /* Add card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
