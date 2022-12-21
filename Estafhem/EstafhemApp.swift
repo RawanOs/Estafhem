@@ -11,9 +11,11 @@ import SwiftUI
 struct EstafhemApp: App {
     var body: some Scene {
         WindowGroup {
-            StartView()
-            ProfaileView()
-    
+//            Fromcloudkit()
+            Tabs()
+//            Instructors()
+//            ProfaileView(learner: Learner(firstName: "Khawlah", lastName: "Alrashed", major: "CS",  bio: "me", Time: Date(), Duration: "30 min", Status: "Done" ,imageURL:  ))
+//    
         }
     }
 }

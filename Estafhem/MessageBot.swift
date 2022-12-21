@@ -5,29 +5,30 @@
 //  Created by Rawan on 17/05/1444 AH.
 //
 
-import Foundation
-//
-//  MessageBot.swift
-//  Ask
-//
-//  Created by Samira Omer on 14/05/1444 AH.
-//
-
 import SwiftUI
 
 struct MessageBot: View {
     @State private var messageText: String = ""
     @State var messages: [String] = ["Welcome to Estephhm!"]
+   
     var body: some View {
         VStack {
-            HStack {
-                Text("Message")
+            VStack {
+                Text("Chat")
                     .font(.largeTitle)
                     .bold()
+                    .padding(.bottom)
+               
+                
+                
                 //                Text (name)
-                Image(systemName: "bubble.left.fill")
-                    .font(.system(size: 26))
-                    .foregroundColor(Color("Maroon"))
+                //                Image(systemName: "bubble.left.fill")
+                //                    .font(.system(size: 13))
+                //                    .foregroundColor(Color("Maroon"))
+                HStack{
+                    
+                    Image(systemName: "star.fill").foregroundColor(.orange)
+                    TaptorateButton()}
             }
             NavigationView{
                 ScrollView {
@@ -67,6 +68,7 @@ struct MessageBot: View {
                 .background(Color.gray.opacity(0.1))
                 
             }
+            
             // Contains the Message bar
             HStack {
                 TextField("Type something", text: $messageText)
@@ -90,20 +92,19 @@ struct MessageBot: View {
         }
     }
     
+    
     func sendMessage(message: String) {
         withAnimation {
             messages.append("[USER]" + message)
             self.messageText = ""
             
-            //            DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
-            //                withAnimation {
-            //                    messages.append(getBotResponse(message: message))
-        }}}
             
-//        }
-//    }
-//}
+        }}
+    
+}
 
+
+    
 struct MessageBot_Previews: PreviewProvider {
     static var previews: some View {
         MessageBot()
